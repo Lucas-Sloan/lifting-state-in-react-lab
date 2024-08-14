@@ -28,8 +28,8 @@ const App = () => {
     <main>
       <h1>Burger Stacker</h1>
       <section>
-        <IngredientList />  
-        <BurgerStack />
+      <IngredientList ingredients={availableIngredients} />
+      <BurgerStack ingredients={stack} />
       </section>
     </main>
   );
